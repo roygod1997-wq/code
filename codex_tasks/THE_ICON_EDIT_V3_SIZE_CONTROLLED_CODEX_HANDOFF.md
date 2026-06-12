@@ -1,118 +1,74 @@
-# THE ICON EDIT V3 — CODEX HANDOFF
+# THE ICON EDIT V3 - CODEX HANDOFF
 
-Status: USE V3 ONLY. V1 and V2 are rejected.
+Status: CORRECTED BUILD COMPLETED AND VALIDATED.
 
-## Required source packet
+Use V3 only. V1 and V2 are rejected.
 
-Use the corrected V3 packet created in ChatGPT:
+## Completed artifact
 
-- `THE_ICON_EDIT_V3_SIZE_CONTROLLED_SCAFFOLD_PACKET.zip`
-- Master scaffold PDF: `THE_ICON_EDIT_V3_SIZE_CONTROLLED_MASTER_SCAFFOLD.pdf`
-- Guide pages PDF: `GUIDE_PAGES_BLACK_QUIET_LUXURY_US_LETTER.pdf`
-- Pro-print shells PDF: `PRODUCT_SHELLS_PRO_PRINT_NATIVE_SIZES.pdf`
-- Print-at-home shells PDF: `PRINT_AT_HOME_US_LETTER_IMPOSITION_SHELLS.pdf`
-- Master manifest CSV: `THE_ICON_EDIT_V3_SIZE_CONTROLLED_MASTER_MANIFEST.csv`
-- Master manifest JSON: `THE_ICON_EDIT_V3_SIZE_CONTROLLED_MASTER_MANIFEST.json`
-- Codex instructions: `CODEX_DROP_INSTRUCTIONS_V3.md`
-- QA report: `QA_SIZE_REPORT_V3.md`
-- Transparent PNG no-shell spec: `TRANSPARENT_PNG_NO_SHELL_SPEC_V3.md`
+- File: `THE_ICON_EDIT_V3_APPROVED_2026-06-11_SELL_READY.zip`
+- Approval batch date: June 11, 2026
+- SHA-256: `cab64c4b8c11563e12074bcbb6a1e995283c58f12a181c06d01b70d9329b904c`
+- Binary status: not committed to this public repository
 
-## V3 packet counts
+The earlier build made from `THE_ICON_EDIT_CUSTOMER_PACKET` is superseded and must not be used.
+
+## Approved source boundaries
+
+- Reset-QA products 1-50: PASS 50/50
+- Additional reset-QA products: PASS 20/20
+- `BATCH05_V8_COMPLETE_EVERY_SELL_READY_ASSET`: 42 SELL READY inventory rows
+- Standalone cupcake cutout and favor-bag ledger: PASS 40/40
+
+Excluded:
+
+- `THE_ICON_EDIT_CUSTOMER_PACKET`
+- incomplete `BATCH05_V8_COMPLETED_SELL_READY`
+- `_work`
+- `BATCH05_V8_WORK`
+- V1 and V2 scaffold packets
+
+## V3 control counts
 
 - Manifest rows: 186
 - PDF scaffold pages: 105
-- PNG-only / no-shell rows: 81
+- Transparent PNG / no-shell rows: 81
 - Guide pages: 10
-- Pro-print native-size pages: 41
-- US Letter print-at-home pages: 54
+- Pro-print native-size rows: 42
+- US Letter print-at-home rows: 53
 
-## Non-negotiable corrections
+## Final build result
 
-1. Use V3 only. Do not use V1 or V2.
-2. This is a no-name product system.
-3. Do not add child names, birthday names, name placeholders, or personalization fields.
-4. Do not force every product into US Letter.
-5. Customer guide pages may be US Letter only.
-6. Product files must follow the V3 size-controlled manifest.
-7. Native pro-print files must preserve native trim size and 0.125 inch bleed where required.
-8. Print-at-home sheets must stay US Letter 8.5 x 11 at 300 DPI.
-9. Transparent PNG assets must have no shell, no background, no crop marks, no header, and no footer.
-10. Cupcake / dessert assets are CUTOUTS, not toppers.
-11. Do not make 2-inch circles unless the exact approved source is already a circle.
-12. Use exact approved source only. No close-enough candidates, generated images, mockups, substitutions, tracing, or redesign.
+- Physical customer files: 98
+- Native pro-print PDFs: 19
+- US Letter print-at-home PDFs: 46
+- Physical transparent PNG files: 33
+- Transparent PNG manifest rows satisfied: 41, including 8 aggregate index rows
+- Rows rejected for no exact approved source: 86
+- PDF size failures: 0
+- PNG transparency or DPI failures: 0
+- Missing audited outputs: 0
+- Scaffold/drop-zone/placeholder filename hits: 0
+- Independent validation: PASS
 
-## Required gated workflow
+Rejected rows were not replaced with similar designs. They remain rejected until an exact approved source at the required V3 product, size, and output type is supplied.
 
-1. Scaffold Gate — locate the exact V3 manifest row and layout family.
-2. Exact Match Gate — confirm the source is the approved Icon Edit item.
-3. User Review Gate — present the required review surface only.
-4. Approval Lock Gate — lock only user-approved exact sources.
-5. Production Repair Gate — repair resolution, scale, bleed, transparency, and export structure without redesign.
-6. QA Gate — verify size, DPI, trim, bleed, no white-background PNGs, no placeholder guides, and no wrong item matches.
-7. Final Sell-Ready Gate — export the customer-ready files.
+## Non-negotiable rules
 
-## Output rules
+1. No child names, personalization fields, or placeholders.
+2. Do not force native products into US Letter.
+3. Preserve native trim and 0.125-inch bleed for pro-print files.
+4. Keep print-at-home sheets at US Letter and 300 DPI.
+5. Transparent PNG assets require real transparency and no PDF shell.
+6. Cupcake and dessert assets are cutouts, not toppers.
+7. Do not force two-inch circles unless the approved source is already circular.
+8. Do not export scaffold labels, drop zones, technical guides, or placeholder text.
+9. Use exact approved sources only. No generated images, mockups, tracing, redesign, or close-enough substitutions.
 
-### Customer guide pages
+## Repository records
 
-- US Letter 8.5 x 11.
-- Black modern quiet-luxury instruction pages.
-- No personalization fields.
+- `THE_ICON_EDIT_V3_APPROVED_BUILD_COMPLETION.md`
+- `THE_ICON_EDIT_V3_FINAL_VALIDATION.json`
+- `THE_ICON_EDIT_V3_ZIP_SHA256.txt`
 
-### Print-at-home files
-
-- US Letter 8.5 x 11.
-- 300 DPI.
-- Correct item imposition only.
-- Do not resize randomly or stretch.
-
-### Professional printer files
-
-- Native item size.
-- 0.125 inch bleed where required.
-- Crop/trim logic must match the V3 manifest.
-
-### Transparent PNG cut assets
-
-- 300 DPI transparent PNG.
-- No PDF shell.
-- No white page.
-- No crop marks.
-- No header/footer.
-- Preserve approved shape exactly.
-
-## Cupcake correction
-
-The cupcake section must be treated as:
-
-`Cupcake / Dessert Cutouts`
-
-Not:
-
-- cupcake toppers
-- round topper sheet
-- 2-inch topper circles
-
-Required cutout outputs:
-
-- individual transparent PNG cutout assets
-- US Letter print-and-cut cutout sheets where applicable
-- optional pro-print PDF only for arranged print-and-cut sheets
-
-## Rejection triggers
-
-Reject immediately if any of the following occur:
-
-- wrong design / not approved Icon Edit source
-- forced into wrong size
-- native item forced into US Letter only
-- topper format used for cutout assets
-- transparent PNG has white background
-- customer name or personalization field appears
-- scaffold labels/guides are left in final files
-- generated/mockup artwork is used as source
-- any close-enough substitution is used
-
-## Current status
-
-V3 is a production scaffold only. Codex must place exact approved designs, remove all scaffold labels and guides, then export sell-ready files.
+The full ZIP and unsanitized provenance map remain outside this public repository because the audit contains local filesystem paths and the ZIP is a large binary customer deliverable.
