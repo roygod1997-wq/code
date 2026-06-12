@@ -1,0 +1,19 @@
+{
+  "artifact": "THE_ICON_EDIT_V3_APPROVED_2026-06-11_SELL_READY.zip",
+  "approval_batch_date": "2026-06-11",
+  "result": "PASS",
+  "zip_sha256": "cab64c4b8c11563e12074bcbb6a1e995283c58f12a181c06d01b70d9329b904c",
+  "zip_entries": 109,
+  "matched_physical_rows": 98,
+  "matched_aggregate_rows": 8,
+  "rejected_manifest_rows": 86,
+  "native_pro_print_pdfs": 19,
+  "us_letter_print_at_home_pdfs": 46,
+  "physical_transparent_pngs": 33,
+  "missing_audited_outputs": [],
+  "pdf_failures": [],
+  "png_failures": [],
+  "forbidden_scaffold_filename_hits": [],
+  "binary_committed_to_repository": false,
+  "unsanitized_provenance_committed_to_repository": false
+}
