@@ -23,8 +23,11 @@ Use the corrected V3 packet created in ChatGPT:
 - PDF scaffold pages: 105
 - PNG-only / no-shell rows: 81
 - Guide pages: 10
-- Pro-print native-size pages: 41
-- US Letter print-at-home pages: 54
+- Pro-print native-size pages: 42
+- US Letter print-at-home pages: 53
+
+These counts were verified against the supplied V3 manifest and PDFs on
+June 11, 2026. See `codex_tasks/THE_ICON_EDIT_V3_PACKET_VALIDATION.md`.
 
 ## Non-negotiable corrections
 
