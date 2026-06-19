@@ -4,7 +4,27 @@
     "domain": "thecrowandcrown.com",
     "shopify_admin_domain": "v0baxq-75.myshopify.com",
     "live_theme": "CROW & CROWN — Industrial Museum Luxury Draft",
-    "unpublished_theme": "Atelier 4.1.0"
+    "unpublished_theme": "Atelier 4.1.0",
+    "positioning": "premium boutique printable and print-for-you party collections"
+  },
+  "launch_direction": {
+    "version": "premium_ladder_v2",
+    "replace_previous_language": [
+      "Mega Bundle",
+      "Basics Pack",
+      "starter pack",
+      "cheap bundle language"
+    ],
+    "preferred_language": [
+      "Complete Archive",
+      "Invitation Atelier",
+      "Signage Gallery",
+      "Favor & Label Archive",
+      "Printed for You",
+      "Private Gallery Edition",
+      "Ready-to-Print Collection"
+    ],
+    "tone": "editorial, boutique, polished, luxury, curated, not marketplace-generic"
   },
   "collections": [
     {
@@ -16,8 +36,12 @@
       "handle": "the-court-is-my-canvas"
     },
     {
-      "title": "Digital Printable Bundles",
-      "handle": "digital-printable-bundles"
+      "title": "Signature Printable Suites",
+      "handle": "signature-printable-suites"
+    },
+    {
+      "title": "À La Carte Printables",
+      "handle": "a-la-carte-printables"
     },
     {
       "title": "Printed For You",
@@ -26,84 +50,189 @@
   ],
   "products": [
     {
-      "title": "THE ICON EDIT — Luxury Printable Party Bundle",
-      "sku": "ICON-EDIT-MEGA-BUNDLE",
-      "price": "45.00",
+      "title": "THE ICON EDIT — Complete Exhibition Archive",
+      "sku": "ICON-EDIT-COMPLETE-ARCHIVE",
+      "price": "89.00",
       "fulfillment": "shopify_digital_downloads",
       "requires_shipping": false,
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE",
-      "product_type": "Digital Printable",
+      "product_type": "Signature Printable Suite",
       "vendor": "CROW & CROWN",
+      "product_ladder_role": "hero_complete_collection",
       "tags": [
         "digital-download",
+        "signature-suite",
         "printable-party",
+        "the-icon-edit",
+        "complete-archive",
+        "ready-to-print",
+        "no-personalization"
+      ],
+      "required_asset": "THE_ICON_EDIT_COMPLETE_EXHIBITION_ARCHIVE.zip",
+      "listing_positioning": "The full luxury fashion-exhibition party suite. This should be the primary hero product for THE ICON EDIT."
+    },
+    {
+      "title": "THE ICON EDIT — Invitation Atelier",
+      "sku": "ICON-EDIT-INVITATION-ATELIER",
+      "price": "28.00",
+      "fulfillment": "shopify_digital_downloads",
+      "requires_shipping": false,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE",
+      "product_type": "À La Carte Printable",
+      "vendor": "CROW & CROWN",
+      "product_ladder_role": "entry_premium_invitation_suite",
+      "tags": [
+        "digital-download",
+        "a-la-carte",
+        "invitation-suite",
         "the-icon-edit",
         "ready-to-print",
         "no-personalization"
       ],
-      "required_asset": "THE_ICON_EDIT_PRINTABLE_BUNDLE.zip"
+      "required_asset": "THE_ICON_EDIT_INVITATION_ATELIER.zip",
+      "listing_positioning": "Premium invitation suite only, sold as a polished à la carte entry point."
     },
     {
-      "title": "THE ICON EDIT — Basics Printable Pack",
-      "sku": "ICON-EDIT-BASICS-PACK",
-      "price": "25.00",
+      "title": "THE ICON EDIT — Signage Gallery",
+      "sku": "ICON-EDIT-SIGNAGE-GALLERY",
+      "price": "34.00",
       "fulfillment": "shopify_digital_downloads",
       "requires_shipping": false,
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE",
-      "product_type": "Digital Printable",
+      "product_type": "À La Carte Printable",
       "vendor": "CROW & CROWN",
+      "product_ladder_role": "mid_tier_signage_suite",
       "tags": [
         "digital-download",
-        "printable-party",
+        "a-la-carte",
+        "signage",
+        "welcome-sign",
         "the-icon-edit",
-        "basics-pack",
         "ready-to-print",
         "no-personalization"
       ],
-      "required_asset": "THE_ICON_EDIT_BASICS_PACK.zip"
+      "required_asset": "THE_ICON_EDIT_SIGNAGE_GALLERY.zip",
+      "listing_positioning": "Welcome, activity, food, and display signs presented as a gallery-style signage suite."
     },
     {
-      "title": "THE COURT IS MY CANVAS — Basketball Printable Party Bundle",
-      "sku": "COURT-CANVAS-MEGA-BUNDLE",
-      "price": "45.00",
+      "title": "THE ICON EDIT — Favor & Label Archive",
+      "sku": "ICON-EDIT-FAVOR-LABEL-ARCHIVE",
+      "price": "26.00",
       "fulfillment": "shopify_digital_downloads",
       "requires_shipping": false,
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE",
-      "product_type": "Digital Printable",
+      "product_type": "À La Carte Printable",
       "vendor": "CROW & CROWN",
+      "product_ladder_role": "details_pack",
       "tags": [
         "digital-download",
+        "a-la-carte",
+        "favor-tags",
+        "labels",
+        "the-icon-edit",
+        "ready-to-print",
+        "no-personalization"
+      ],
+      "required_asset": "THE_ICON_EDIT_FAVOR_LABEL_ARCHIVE.zip",
+      "listing_positioning": "Premium labels, favor tags, wraps, stickers, and finishing details."
+    },
+    {
+      "title": "THE COURT IS MY CANVAS — Complete Art Court Archive",
+      "sku": "COURT-CANVAS-COMPLETE-ARCHIVE",
+      "price": "79.00",
+      "fulfillment": "shopify_digital_downloads",
+      "requires_shipping": false,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE",
+      "product_type": "Signature Printable Suite",
+      "vendor": "CROW & CROWN",
+      "product_ladder_role": "hero_complete_collection",
+      "tags": [
+        "digital-download",
+        "signature-suite",
         "printable-party",
+        "court-canvas",
+        "basketball",
+        "complete-archive",
+        "ready-to-print",
+        "no-personalization"
+      ],
+      "required_asset": "THE_COURT_IS_MY_CANVAS_COMPLETE_ART_COURT_ARCHIVE.zip",
+      "listing_positioning": "The full basketball/editorial party suite positioned as an art-court printable collection."
+    },
+    {
+      "title": "THE COURT IS MY CANVAS — Invitation Set",
+      "sku": "COURT-CANVAS-INVITATION-SET",
+      "price": "24.00",
+      "fulfillment": "shopify_digital_downloads",
+      "requires_shipping": false,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE",
+      "product_type": "À La Carte Printable",
+      "vendor": "CROW & CROWN",
+      "product_ladder_role": "entry_premium_invitation_suite",
+      "tags": [
+        "digital-download",
+        "a-la-carte",
+        "invitation-suite",
         "court-canvas",
         "basketball",
         "ready-to-print",
         "no-personalization"
       ],
-      "required_asset": "THE_COURT_IS_MY_CANVAS_PRINTABLE_BUNDLE.zip"
+      "required_asset": "THE_COURT_IS_MY_CANVAS_INVITATION_SET.zip",
+      "listing_positioning": "The invitation-only entry product for the basketball collection."
     },
     {
-      "title": "THE COURT IS MY CANVAS — Basics Printable Pack",
-      "sku": "COURT-CANVAS-BASICS-PACK",
-      "price": "25.00",
+      "title": "THE COURT IS MY CANVAS — Signage Set",
+      "sku": "COURT-CANVAS-SIGNAGE-SET",
+      "price": "30.00",
       "fulfillment": "shopify_digital_downloads",
       "requires_shipping": false,
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE",
-      "product_type": "Digital Printable",
+      "product_type": "À La Carte Printable",
       "vendor": "CROW & CROWN",
+      "product_ladder_role": "mid_tier_signage_suite",
       "tags": [
         "digital-download",
-        "printable-party",
+        "a-la-carte",
+        "signage",
         "court-canvas",
-        "basics-pack",
         "basketball",
         "ready-to-print",
         "no-personalization"
       ],
-      "required_asset": "THE_COURT_IS_MY_CANVAS_BASICS_PACK.zip"
+      "required_asset": "THE_COURT_IS_MY_CANVAS_SIGNAGE_SET.zip",
+      "listing_positioning": "A curated court signage pack for welcome, table, activity, and display moments."
+    },
+    {
+      "title": "THE COURT IS MY CANVAS — Favor & Label Set",
+      "sku": "COURT-CANVAS-FAVOR-LABEL-SET",
+      "price": "24.00",
+      "fulfillment": "shopify_digital_downloads",
+      "requires_shipping": false,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE",
+      "product_type": "À La Carte Printable",
+      "vendor": "CROW & CROWN",
+      "product_ladder_role": "details_pack",
+      "tags": [
+        "digital-download",
+        "a-la-carte",
+        "favor-tags",
+        "labels",
+        "court-canvas",
+        "basketball",
+        "ready-to-print",
+        "no-personalization"
+      ],
+      "required_asset": "THE_COURT_IS_MY_CANVAS_FAVOR_LABEL_SET.zip",
+      "listing_positioning": "Basketball-party finishing details positioned as a curated label/favor set."
     },
     {
       "title": "THE ICON EDIT — Welcome Sign, Printed for You",
@@ -113,7 +242,8 @@
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
       "intended_size": "18x24 poster/sign",
-      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "premium_price_floor": "49.00",
+      "pricing_rule": "Use exact Printful cost + shipping-aware margin; retail must not undercut the digital suite positioning.",
       "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
     },
     {
@@ -124,7 +254,8 @@
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
       "intended_size": "24x36 poster/sign",
-      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "premium_price_floor": "69.00",
+      "pricing_rule": "Use exact Printful cost + shipping-aware margin; target premium retail, not commodity poster pricing.",
       "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
     },
     {
@@ -135,7 +266,8 @@
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
       "intended_size": "36x24 horizontal poster/sign if supported",
-      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "premium_price_floor": "79.00",
+      "pricing_rule": "Use exact Printful cost + shipping-aware margin; publish only if supported at professional quality.",
       "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
     },
     {
@@ -146,7 +278,8 @@
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
       "intended_size": "18x24 poster/sign",
-      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "premium_price_floor": "49.00",
+      "pricing_rule": "Use exact Printful cost + shipping-aware margin; retail must support boutique positioning.",
       "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
     },
     {
@@ -157,15 +290,24 @@
       "status_until_qa": "DRAFT",
       "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
       "intended_size": "36x24 horizontal poster/sign if supported",
-      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "premium_price_floor": "79.00",
+      "pricing_rule": "Use exact Printful cost + shipping-aware margin; publish only if print quality and dimensions match the brand standard.",
       "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
     }
+  ],
+  "storefront_rules": [
+    "Hero product should be The Icon Edit — Complete Exhibition Archive, not a generic bundle grid.",
+    "Product cards should use editorial naming and restrained copy, not discount-bundle language.",
+    "Show fewer products per section with more whitespace and stronger hierarchy.",
+    "Use the words suite, archive, atelier, gallery, edition, and printed for you where accurate.",
+    "Avoid words like cheap, basic, mega, starter, bundle dump, huge pack, or everything included in the first visible text."
   ],
   "qa_gates": [
     "No active digital product without attached ZIP and test download",
     "No active Printful product without clean sync status, print-area fit, mockups, shipping profile, and checkout shipping test",
     "No live theme publication without explicit review",
     "No artwork redesign or color drift",
-    "No personalization fields"
+    "No personalization fields",
+    "No commodity/cheap product naming on the live storefront"
   ]
 }
