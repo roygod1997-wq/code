@@ -1,0 +1,171 @@
+{
+  "store": {
+    "brand": "CROW & CROWN",
+    "domain": "thecrowandcrown.com",
+    "shopify_admin_domain": "v0baxq-75.myshopify.com",
+    "live_theme": "CROW & CROWN — Industrial Museum Luxury Draft",
+    "unpublished_theme": "Atelier 4.1.0"
+  },
+  "collections": [
+    {
+      "title": "The Icon Edit",
+      "handle": "the-icon-edit"
+    },
+    {
+      "title": "The Court Is My Canvas",
+      "handle": "the-court-is-my-canvas"
+    },
+    {
+      "title": "Digital Printable Bundles",
+      "handle": "digital-printable-bundles"
+    },
+    {
+      "title": "Printed For You",
+      "handle": "printed-for-you"
+    }
+  ],
+  "products": [
+    {
+      "title": "THE ICON EDIT — Luxury Printable Party Bundle",
+      "sku": "ICON-EDIT-MEGA-BUNDLE",
+      "price": "45.00",
+      "fulfillment": "shopify_digital_downloads",
+      "requires_shipping": false,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE",
+      "product_type": "Digital Printable",
+      "vendor": "CROW & CROWN",
+      "tags": [
+        "digital-download",
+        "printable-party",
+        "the-icon-edit",
+        "ready-to-print",
+        "no-personalization"
+      ],
+      "required_asset": "THE_ICON_EDIT_PRINTABLE_BUNDLE.zip"
+    },
+    {
+      "title": "THE ICON EDIT — Basics Printable Pack",
+      "sku": "ICON-EDIT-BASICS-PACK",
+      "price": "25.00",
+      "fulfillment": "shopify_digital_downloads",
+      "requires_shipping": false,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE",
+      "product_type": "Digital Printable",
+      "vendor": "CROW & CROWN",
+      "tags": [
+        "digital-download",
+        "printable-party",
+        "the-icon-edit",
+        "basics-pack",
+        "ready-to-print",
+        "no-personalization"
+      ],
+      "required_asset": "THE_ICON_EDIT_BASICS_PACK.zip"
+    },
+    {
+      "title": "THE COURT IS MY CANVAS — Basketball Printable Party Bundle",
+      "sku": "COURT-CANVAS-MEGA-BUNDLE",
+      "price": "45.00",
+      "fulfillment": "shopify_digital_downloads",
+      "requires_shipping": false,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE",
+      "product_type": "Digital Printable",
+      "vendor": "CROW & CROWN",
+      "tags": [
+        "digital-download",
+        "printable-party",
+        "court-canvas",
+        "basketball",
+        "ready-to-print",
+        "no-personalization"
+      ],
+      "required_asset": "THE_COURT_IS_MY_CANVAS_PRINTABLE_BUNDLE.zip"
+    },
+    {
+      "title": "THE COURT IS MY CANVAS — Basics Printable Pack",
+      "sku": "COURT-CANVAS-BASICS-PACK",
+      "price": "25.00",
+      "fulfillment": "shopify_digital_downloads",
+      "requires_shipping": false,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE",
+      "product_type": "Digital Printable",
+      "vendor": "CROW & CROWN",
+      "tags": [
+        "digital-download",
+        "printable-party",
+        "court-canvas",
+        "basics-pack",
+        "basketball",
+        "ready-to-print",
+        "no-personalization"
+      ],
+      "required_asset": "THE_COURT_IS_MY_CANVAS_BASICS_PACK.zip"
+    },
+    {
+      "title": "THE ICON EDIT — Welcome Sign, Printed for You",
+      "sku": "ICON-EDIT-WELCOME-PRINT-18X24",
+      "fulfillment": "printful_shopify_sync",
+      "requires_shipping": true,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
+      "intended_size": "18x24 poster/sign",
+      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
+    },
+    {
+      "title": "THE ICON EDIT — Gallery Welcome Sign, Printed for You",
+      "sku": "ICON-EDIT-WELCOME-PRINT-24X36",
+      "fulfillment": "printful_shopify_sync",
+      "requires_shipping": true,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
+      "intended_size": "24x36 poster/sign",
+      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
+    },
+    {
+      "title": "THE ICON EDIT — Photo Booth Backdrop Print",
+      "sku": "ICON-EDIT-BACKDROP-PRINT-36X24",
+      "fulfillment": "printful_shopify_sync",
+      "requires_shipping": true,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
+      "intended_size": "36x24 horizontal poster/sign if supported",
+      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
+    },
+    {
+      "title": "THE COURT IS MY CANVAS — Welcome Sign, Printed for You",
+      "sku": "COURT-CANVAS-WELCOME-PRINT-18X24",
+      "fulfillment": "printful_shopify_sync",
+      "requires_shipping": true,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
+      "intended_size": "18x24 poster/sign",
+      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
+    },
+    {
+      "title": "THE COURT IS MY CANVAS — Court Backdrop Print",
+      "sku": "COURT-CANVAS-BACKDROP-PRINT-36X24",
+      "fulfillment": "printful_shopify_sync",
+      "requires_shipping": true,
+      "status_until_qa": "DRAFT",
+      "target_status_after_qa": "ACTIVE_IF_PRINTFUL_SYNC_VALID",
+      "intended_size": "36x24 horizontal poster/sign if supported",
+      "pricing_rule": "Printful product cost + shipping-aware margin; target >=55% gross margin",
+      "catalog_resolution": "Codex must query current Printful catalog and exact variant IDs; do not hardcode"
+    }
+  ],
+  "qa_gates": [
+    "No active digital product without attached ZIP and test download",
+    "No active Printful product without clean sync status, print-area fit, mockups, shipping profile, and checkout shipping test",
+    "No live theme publication without explicit review",
+    "No artwork redesign or color drift",
+    "No personalization fields"
+  ]
+}
